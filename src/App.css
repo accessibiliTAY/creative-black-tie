@@ -1,31 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Tenor+Sans&display=swap');
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +19,138 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #FFF1F4;
+  font-family: 'Tenor Sans', sans-serif;
+}
+h1 {
+  color: #274393;
+}
+.navsection {
+  display: block;
+  text-align: center;
+}
+.navlink {
+  padding: 10px 20px;
+  margin: 2px;
+  text-decoration: none;
+  background-color: #282c34;
+  border-radius: 20px;
+}
+a {
+  min-width: 120px;
+  display: inline-block;
+}
+.navsection span {
+  display: block;
+}
+.mainwell{
+  text-align: left;
+  margin: 0px 60px;
+  color: #274393;
+}
+.topping{
+  padding: 20px;
+}
+a {
+  color: #274393;
+}
+#GOH{
+  font-size: xxx-large;
+  color: #274393;
+}
+#resourcehub {
+  font-size: xx-large;
+  padding-bottom: 10px;
+  color: #F47185;
+  font-family: 'Petit Formal Script', cursive;
+}
+#homelink{
+  background-color: #274393;
+  color: #FFF;
+}
+#femmelink {
+  background-color: #CEC5FC;
+  color: #274393;
+}
+#masclink{
+  background-color: #DDD92A;
+  color: #274393
+}
+#faqlink{
+  background-color: #F47185;
+  color: #FFF;
+}
+
+
+/* Mobile */
+.mobilecardContainer {
+  display: block;
+}
+.mobileOutfitCard {
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.mobileOutfitImage {
+  width: 100%;
+  margin: auto;
+}
+.mobileOutfitCardDetails {
+  outline: #274393;
+}
+
+
+
+/* Tablet */
+.tabletOutfitCard {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.tabletOutfitImage {
+  width: 280px;
+  height: auto;
+}
+.tabletOutfitCardDetails {
+  display: inline;
+  top: 20%;
+  padding-left: 20px;  
+  position: absolute;
+}
+
+/* Desktop */
+
+.cardsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+  gap: 10px;
+}
+.cardContainer {
+  display: inline-block;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.OutfitImage {
+  width: 250px;
+  height: auto;
+}
+.OutfitCard {
+  position: relative;
+  display:block;
+  max-width: 700px;
+  margin: auto;
+}
+.OutfitCard a {
+  color: #274393;
+}
+.OutfitCardDetails {
+  display: inline;
+  position: absolute;
+  top: 10%;
+  padding-left: 20px;
 }
