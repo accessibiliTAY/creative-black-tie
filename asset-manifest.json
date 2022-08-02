@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/creative-black-tie/static/css/main.f3d42758.css",
-    "main.js": "/creative-black-tie/static/js/main.02dc9d74.js",
+    "main.js": "/creative-black-tie/static/js/main.fc3ff228.js",
     "index.html": "/creative-black-tie/index.html",
     "main.f3d42758.css.map": "/creative-black-tie/static/css/main.f3d42758.css.map",
-    "main.02dc9d74.js.map": "/creative-black-tie/static/js/main.02dc9d74.js.map"
+    "main.fc3ff228.js.map": "/creative-black-tie/static/js/main.fc3ff228.js.map"
   },
   "entrypoints": [
     "static/css/main.f3d42758.css",
-    "static/js/main.02dc9d74.js"
+    "static/js/main.fc3ff228.js"
   ]
 }
