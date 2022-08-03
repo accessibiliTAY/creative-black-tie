@@ -13,10 +13,10 @@ const Header = () => {
                     <span id="resourcehub">resource hub</span>
                 </div>
                 <nav>
-                    <Link className='navlink' id="homelink" to="/">Home</Link>
-                    <Link className='navlink' id="femmelink" to="/Femmes">Femme Outfits</Link>
-                    <Link className='navlink' id="masclink" to="/Mascs">Masc Outfits</Link>
-                    <Link className='navlink' id="faqlink" to="FAQ">Fast Facts</Link>
+                    <Link className='navlink' id="homelink" to="/creative-black-tie/">Home</Link>
+                    <Link className='navlink' id="femmelink" to="/creative-black-tie/Femmes">Femme Outfits</Link>
+                    <Link className='navlink' id="masclink" to="/creative-black-tie/Mascs">Masc Outfits</Link>
+                    <Link className='navlink' id="faqlink" to="/creative-black-tie/FAQ">Fast Facts</Link>
                 </nav>
                 <Outlet />
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useDeviceType} from "./useDeviceType";
 import { mascContent } from "./mascContent";
-import OutfitCard from "./OutfitCard";
+import OutfitCard from "./Components/OutfitCard/OutfitCard";
 import './App.css';
 
 

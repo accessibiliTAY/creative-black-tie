@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Tenor+Sans&display=swap');
-
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 .App {
   text-align: center;
@@ -83,6 +83,9 @@ a {
   background-color: #F47185;
   color: #FFF;
 }
+.maincontainer {
+  margin: 0 100px;
+}
 
 
 /* Mobile */
@@ -130,27 +133,74 @@ a {
   gap: 10px;
 }
 .cardContainer {
-  display: inline-block;
-  align-items: center;
+  display: flex;
   margin-top: 30px;
   margin-bottom: 50px;
+  height: auto;
+  width: 100%;
+  margin: auto;
 }
 .OutfitImage {
   width: 250px;
-  height: auto;
+  height: 340px;
 }
-.OutfitCard {
-  position: relative;
-  display:block;
-  max-width: 700px;
-  margin: auto;
-}
-.OutfitCard a {
+.cardContainer a {
   color: #274393;
 }
 .OutfitCardDetails {
   display: inline;
-  position: absolute;
-  top: 10%;
   padding-left: 20px;
+  margin-top: 10%;
 }
+.pagination {
+  display: block;
+  margin: 100px auto;
+  width: 100%;
+}
+.pagination-container {
+  list-style-type: none;
+  text-align: center;
+}
+.pagination-item {
+  padding: 10px 0px;
+  height: 50px;
+  text-align: center;
+  margin: auto 5px;
+  color: #274393;
+  display: inline;
+  align-items: center;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  min-width: 44px;
+  border-bottom: solid #FFF1F4 2px;
+}
+.paginationButton {
+  border: none;
+  padding: 11px;
+  color: #274393;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: 'Petit Formal Script', cursive;
+  min-width: 44px;
+}
+.paginationButton:hover{
+  cursor: pointer;
+}
+/* .dots:hover {
+  background-color: transparent;
+  cursor: default;
+} */
+.selected {
+  border-bottom: solid #F47185 2px;
+}
+.disabled {
+  pointer-events: none;
+}
+i {
+  padding: 2px;
+  height: 100%;
+  line-height: 1.43;
+  vertical-align: middle;
+  display: inline;
+}
+
