@@ -12,7 +12,7 @@ const Header = () => {
                     <span id="GOH">Guests of Honor</span>
                     <span id="resourcehub">resource hub</span>
                 </div>
-                <nav>
+                <nav aria-label="main">
                     <Link className='navlink' id="homelink" to="/creative-black-tie/">Home</Link>
                     <Link className='navlink' id="femmelink" to="/creative-black-tie/Femmes">Femme Outfits</Link>
                     <Link className='navlink' id="masclink" to="/creative-black-tie/Mascs">Masc Outfits</Link>

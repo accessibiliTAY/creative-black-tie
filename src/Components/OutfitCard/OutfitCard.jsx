@@ -27,7 +27,6 @@ const OutfitCard = ({clothingname, link, image, price, notes, index}) => {
 
             {isTablet ? (
                 <div className="tabletcardContainer">
-                    <div className="tabletOutfitCard" key={index}>
                         <img className="tabletOutfitImage" src={image} alt='' />
                         <div className="tabletOutfitCardDetails">
                             <h2>
@@ -36,7 +35,6 @@ const OutfitCard = ({clothingname, link, image, price, notes, index}) => {
                             <p>Price: {price}</p>
                             <p>Notes: {notes}</p>
                         </div>
-                    </div>
                 </div>  
             ): null}
 

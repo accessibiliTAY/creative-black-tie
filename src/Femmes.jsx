@@ -20,16 +20,34 @@ const Femmes = () => {
             <h1>For the Femmes</h1>
 
             {isMobile ? (
-                <div className="mobileCardsList">
-                    {femmeContent.map(({clothingname, link, image, price, notes, index}) => (
-                        <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
+                <div>
+                    <div className="mobileCardsList">
+                        {currentFemmeContent.map(({clothingname, link, image, price, notes, index}) => (
+                            <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
+                    </div>
+                    <Pagination
+                        className="pagination-bar"
+                        currentPage={currentPage}
+                        totalCount={femmeContent.length}
+                        pageSize={PageSize}
+                        onPageChange={page => setCurrentPage(page)}
+                    /> 
                 </div> 
             ): null}
 
             {isTablet ? (
-                <div className="tabletCardsList">
-                    {femmeContent.map(({clothingname, link, image, price, notes, index}) => (
-                        <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
+                <div>
+                    <div className="tabletCardsList">
+                        {currentFemmeContent.map(({clothingname, link, image, price, notes, index}) => (
+                            <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
+                    </div>
+                    <Pagination
+                        className="pagination-bar"
+                        currentPage={currentPage}
+                        totalCount={femmeContent.length}
+                        pageSize={PageSize}
+                        onPageChange={page => setCurrentPage(page)}
+                    />
                 </div> 
             ): null}
 

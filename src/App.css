@@ -89,6 +89,11 @@ a {
 
 
 /* Mobile */
+.mobileCardsList {
+  display: gird;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
 .mobilecardContainer {
   display: block;
 }
@@ -103,15 +108,24 @@ a {
 .mobileOutfitCardDetails {
   outline: #274393;
 }
+.mobilePaginationContainer {
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
 
 
 
 /* Tablet */
-.tabletOutfitCard {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  position: relative;
+.tabletCardsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.tabletcardContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 .tabletOutfitImage {
   width: 280px;
@@ -121,7 +135,11 @@ a {
   display: inline;
   top: 20%;
   padding-left: 20px;  
-  position: absolute;
+}
+.tabletPagination {
+  padding: 30px;
+  list-style-type: none;
+  text-align: center;
 }
 
 /* Desktop */

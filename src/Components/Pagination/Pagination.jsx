@@ -44,52 +44,124 @@ const Pagination = ({
 
             {isMobile ? (
                 <div className="mobilePagination">
-                    
+                    <nav aria-label="pagination">
+                        <ul className='mobilePaginationContainer'>
+                            {/* Left navigation arrow */}
+                            <li
+                                className={classnames('pagination-item', {
+                                disabled: currentPage === 1
+                                })}>
+                                    <button className="paginationButton" onClick={onPrevious}><i className="fi fi-rr-angle-left"></i></button>
+                            </li>
+                            {paginationRange.map(pageNumber => {    
+                                // If the pageItem is a DOT, render the DOTS unicode character
+                                if (pageNumber === DOTS) {
+                                return <li className="pagination-item dots">&#8230;</li>;
+                                }
+                                // Render our Page Pills
+                                return (
+                                <li
+                                    className={classnames('pagination-item', {
+                                    selected: pageNumber === currentPage
+                                    })}
+                                    >
+                                        <button className="paginationButton" onClick={() => onPageChange(pageNumber)} aria-label={'page ' + pageNumber}>{pageNumber}</button>
+                                </li>
+                                );
+                            })}
+                            {/*  Right Navigation arrow */}
+                            <li
+                                className={classnames('pagination-item', {
+                                disabled: currentPage === lastPage
+                                })}
+                                onClick={onNext}>
+                                    <button className="paginationButton" onClick={onPrevious}><i className="fi fi-rr-angle-right"></i></button>
+                                
+                            </li>
+                        </ul>
+                    </nav>   
                 </div>  
             ): null}
 
             {isTablet ? (
                 <div className="tabletPagination">
-                    
+                    <nav aria-label="pagination">
+                        <ul className='pagination-container'>
+                            {/* Left navigation arrow */}
+                            <li
+                                className={classnames('pagination-item', {
+                                disabled: currentPage === 1
+                                })}>
+                                    <button className="paginationButton" onClick={onPrevious}><i className="fi fi-rr-angle-left"></i>previous</button>
+                            </li>
+                            {paginationRange.map(pageNumber => {    
+                                // If the pageItem is a DOT, render the DOTS unicode character
+                                if (pageNumber === DOTS) {
+                                return <li className="pagination-item dots">&#8230;</li>;
+                                }
+                                // Render our Page Pills
+                                return (
+                                <li
+                                    className={classnames('pagination-item', {
+                                    selected: pageNumber === currentPage
+                                    })}
+                                    >
+                                        <button className="paginationButton" onClick={() => onPageChange(pageNumber)} aria-label={'page ' + pageNumber}>{pageNumber}</button>
+                                </li>
+                                );
+                            })}
+                            {/*  Right Navigation arrow */}
+                            <li
+                                className={classnames('pagination-item', {
+                                disabled: currentPage === lastPage
+                                })}
+                                onClick={onNext}>
+                                    <button className="paginationButton" onClick={onPrevious}>next<i className="fi fi-rr-angle-right"></i></button>
+                                
+                            </li>
+                        </ul>
+                    </nav> 
                 </div>  
             ): null}
 
             {!isMobile && !isTablet ? (
                 <div className="pagination">
-                    <ul className='pagination-container'>
-                        {/* Left navigation arrow */}
-                        <li
-                            className={classnames('pagination-item', {
-                            disabled: currentPage === 1
-                            })}>
-                                <button className="paginationButton" onClick={onPrevious}><i className="fi fi-rr-angle-left"></i>previous</button>
-                        </li>
-                        {paginationRange.map(pageNumber => {    
-                            // If the pageItem is a DOT, render the DOTS unicode character
-                            if (pageNumber === DOTS) {
-                            return <li className="pagination-item dots">&#8230;</li>;
-                            }
-                            // Render our Page Pills
-                            return (
+                    <nav aria-label="pagination">
+                        <ul className='pagination-container'>
+                            {/* Left navigation arrow */}
                             <li
                                 className={classnames('pagination-item', {
-                                selected: pageNumber === currentPage
-                                })}
-                                >
-                                    <button className="paginationButton" onClick={() => onPageChange(pageNumber)}>{pageNumber}</button>
+                                disabled: currentPage === 1
+                                })}>
+                                    <button className="paginationButton" onClick={onPrevious}><i className="fi fi-rr-angle-left"></i>previous</button>
                             </li>
-                            );
-                        })}
-                        {/*  Right Navigation arrow */}
-                        <li
-                            className={classnames('pagination-item', {
-                            disabled: currentPage === lastPage
+                            {paginationRange.map(pageNumber => {    
+                                // If the pageItem is a DOT, render the DOTS unicode character
+                                if (pageNumber === DOTS) {
+                                return <li className="pagination-item dots">&#8230;</li>;
+                                }
+                                // Render our Page Pills
+                                return (
+                                <li
+                                    className={classnames('pagination-item', {
+                                    selected: pageNumber === currentPage
+                                    })}
+                                    >
+                                        <button className="paginationButton" onClick={() => onPageChange(pageNumber)} aria-label={'page ' + pageNumber}>{pageNumber}</button>
+                                </li>
+                                );
                             })}
-                            onClick={onNext}>
-                                <button className="paginationButton" onClick={onPrevious}>next<i className="fi fi-rr-angle-right"></i></button>
-                            
-                        </li>
-                    </ul>  
+                            {/*  Right Navigation arrow */}
+                            <li
+                                className={classnames('pagination-item', {
+                                disabled: currentPage === lastPage
+                                })}
+                                onClick={onNext}>
+                                    <button className="paginationButton" onClick={onPrevious}>next<i className="fi fi-rr-angle-right"></i></button>
+                                
+                            </li>
+                        </ul>
+                    </nav>  
                 </div>  
             ): null}                          
         </>
