@@ -43,9 +43,6 @@ a {
   min-width: 120px;
   display: inline-block;
 }
-.navsection span {
-  display: block;
-}
 .mainwell{
   text-align: left;
   margin: 0px 60px;
@@ -60,12 +57,14 @@ a {
 #GOH{
   font-size: xxx-large;
   color: #274393;
+  display: block;
 }
 #resourcehub {
   font-size: xx-large;
   padding-bottom: 10px;
   color: #F47185;
   font-family: 'Petit Formal Script', cursive;
+  display: block;
 }
 #homelink{
   background-color: #274393;
@@ -108,10 +107,45 @@ a {
 .mobileOutfitCardDetails {
   outline: #274393;
 }
+.mobilePagination {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.mobilePagination nav{
+  width: 100%;
+}
 .mobilePaginationContainer {
-  padding: 0px;
+  padding: 0;
   list-style-type: none;
   text-align: center;
+  justify-items: center;
+  width: 100%;
+}
+.mobilePaginationItem{
+  color: #274393;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  min-width: 44px;
+  border-bottom: solid #FFF1F4 2px;
+}
+.mobilePaginationButton{
+  border: none;
+  color: #274393;
+  background-color: transparent;
+  font-size: 18px;
+  min-width: 44px;  
+  font-family: 'Petit Formal Script', cursive;
+  align-self: center;
+  padding: 10.5px;
+}
+.mobilelabel {
+  color: #FFF1F4;
+  font-size: 0px;
+  height: 0;
+  width: 0;
 }
 
 
@@ -221,5 +255,49 @@ i {
   line-height: 1.43;
   vertical-align: middle;
   display: inline;
+}
+.accordion {
+  margin-left: 40px;
+  min-width: 320px;
+  padding: 20px;
+}
+.accordionTopic {
+  display: block;
+
+}
+.accordionHeader {
+  display: flex;
+  border: .1em solid #274393;
+  background-color: transparent;
+  color: #274393;
+  border-radius: 10px;
+  width: 100%;
+  padding: 1.5em;
+  cursor: pointer;
+}
+.accordionHeader span {
+  display: inline;
+}
+.accordionTitle {
+  color: #274393;
+  font-size: 1.75em;
+  padding: .4em 0;
+  display: flex;
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: bold;
+}
+.accordionContent{
+  color: #274393;
+  border: .1em solid #274393;
+  margin-top: 0px;
+}
+.content {
+  font-size: 18px;
+}
+.openCloseButton {
+  text-align: left;
+}
+.fi-rr-plus {
+  font-size: x-large;
 }
 

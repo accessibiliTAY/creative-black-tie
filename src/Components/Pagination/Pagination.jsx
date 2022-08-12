@@ -48,10 +48,10 @@ const Pagination = ({
                         <ul className='mobilePaginationContainer'>
                             {/* Left navigation arrow */}
                             <li
-                                className={classnames('pagination-item', {
+                                className={classnames('mobilePaginationItem', {
                                 disabled: currentPage === 1
                                 })}>
-                                    <button className="paginationButton" onClick={onPrevious}><i className="fi fi-rr-angle-left"></i></button>
+                                    <button className="mobilePaginationButton" onClick={onPrevious}><span className="mobilelabel">Previous</span><i className="fi fi-rr-angle-left"></i></button>
                             </li>
                             {paginationRange.map(pageNumber => {    
                                 // If the pageItem is a DOT, render the DOTS unicode character
@@ -61,21 +61,21 @@ const Pagination = ({
                                 // Render our Page Pills
                                 return (
                                 <li
-                                    className={classnames('pagination-item', {
+                                    className={classnames('mobilePaginationItem', {
                                     selected: pageNumber === currentPage
                                     })}
                                     >
-                                        <button className="paginationButton" onClick={() => onPageChange(pageNumber)} aria-label={'page ' + pageNumber}>{pageNumber}</button>
+                                        <button className="mobilePaginationButton" onClick={() => onPageChange(pageNumber)} aria-label={'page ' + pageNumber}>{pageNumber}</button>
                                 </li>
                                 );
                             })}
                             {/*  Right Navigation arrow */}
                             <li
-                                className={classnames('pagination-item', {
+                                className={classnames('mobilePaginationItem', {
                                 disabled: currentPage === lastPage
                                 })}
                                 onClick={onNext}>
-                                    <button className="paginationButton" onClick={onPrevious}><i className="fi fi-rr-angle-right"></i></button>
+                                    <button className="mobilePaginationButton" onClick={onPrevious}><span className="mobilelabel">Next</span><i className="fi fi-rr-angle-right"></i></button>
                                 
                             </li>
                         </ul>
