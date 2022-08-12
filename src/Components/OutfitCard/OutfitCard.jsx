@@ -18,7 +18,7 @@ const OutfitCard = ({clothingname, link, image, price, notes, index}) => {
                 <h2>
                     <a href={link}>{clothingname}</a>
                 </h2>
-                <p>Price: {price}</p>
+                <p>Price: ${price}</p>
                 <p>Notes: {notes}</p>
             </div>
         </div>
@@ -32,7 +32,7 @@ const OutfitCard = ({clothingname, link, image, price, notes, index}) => {
                             <h2>
                                 <a href={link}>{clothingname}</a>
                             </h2>
-                            <p>Price: {price}</p>
+                            <p>Price: ${price}</p>
                             <p>Notes: {notes}</p>
                         </div>
                 </div>  
@@ -45,7 +45,7 @@ const OutfitCard = ({clothingname, link, image, price, notes, index}) => {
                             <h2>
                                 <a href={link}>{clothingname}</a>
                             </h2>
-                            <p>Price: {price}</p>
+                            <p>Price: ${price}</p>
                             <p>Notes: {notes}</p>
                         </div>
                 </div>  

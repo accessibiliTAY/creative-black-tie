@@ -3,6 +3,7 @@ import { useDeviceType} from "./useDeviceType";
 import { femmeContent } from "./femmeContent";
 import OutfitCard from "./Components/OutfitCard/OutfitCard";
 import Pagination from "./Components/Pagination/Pagination";
+import FilterButton from "./Components/Filter/FilterButton";
 import './App.css';
 
 let PageSize = 10;
@@ -53,6 +54,10 @@ const Femmes = () => {
 
             {!isMobile && !isTablet ? (
                 <div>
+                    {/* <div>
+                    {currentFemmeContent.map(({price}) => (
+                            <FilterButton price={price} /> ))}
+                    </div> */}
                     <div className="cardsList">
                         {currentFemmeContent.map(({clothingname, link, image, price, notes, index}) => (
                             <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}

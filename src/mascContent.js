@@ -37,86 +37,107 @@ export const mascContent = [
     {
         clothingname: 'The Empower Colorblock Tux Blazer',
         link:'https://www.wildfang.com/products/the-empower-colorblock-tux-blazer',
-        image:'./images/TheEmpowerColorblockTuxBlazerORCHID_9_300x.jpg',
+        image:'./images/TheEmpowerColorblockTuxBlazerORCHID_10_600x.jpeg',
         price:'$194',
         notes:''
     },  
     {
         clothingname: 'Jacobean Suit Jacket',
         link:'https://bananarepublic.gap.com/browse/product.do?pid=858069#pdp-page-content',
-        image:'.image/cn29058436.jpg',
+        image:'./images/cn29058436.jpeg',
         price:'$400',
         notes:''
     },  
     {
         clothingname: 'Yellow Linen Blazer',
         link:'https://bananarepublic.gap.com/browse/product.do?pid=813908#pdp-page-content',
-        image:'./images/cn28820235.jpg',
+        image:'./images/cn28820261.jpeg',
         price:'$230',
         notes:''
     },  
     {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
+        clothingname: 'ASOS DESIGN Loafers in Black Floral Print',
+        link:'https://www.asos.com/us/asos-design/asos-design-loafers-in-black-floral-print-with-snaffle-detail/prd/201388400',
+        image:'./images/201388400-1-black.jpeg',
+        price:'36',
         notes:''
     },  
+    {
+        clothingname: 'ASOS DESIGN Backless Mule Loafers in Grey Floral Print',
+        link:'https://www.asos.com/us/asos-design/asos-design-backless-mule-loafers-in-gray-floral-print/prd/202004095',
+        image:'./images/202004095-1-grey.jpeg',
+        price:'36',
+        notes:''
+    },  
+    {
+        clothingname: 'ASOS DESIGN loafers in blue faux suede',
+        link:'https://www.asos.com/us/asos-design/asos-design-loafers-in-blue-faux-suede/prd/201375084',
+        image:'./images/201375084-1-blue.jpeg',
+        price:'42',
+        notes:''
+    },  
+    {
+        clothingname: 'Floral White Lavender Blooms Tie Set',
+        link:'https://www.artofthegent.com/products/floral-white-lavender-blooms-tie-set',
+        image:'./images/FloralWhiteLavenderBloomsTieSet_5000x.jpeg',
+        price:'45',
+        notes:''
+    },  
+    {
+        clothingname: 'Paisley Crest Pearl Tie Set',
+        link:'https://www.artofthegent.com/products/paisley-crest-pearl-tie-set',
+        image:'./images/Paisley_Crest_Pearl_Tie_Set_5000x.jpeg',
+        price:'45',
+        notes:''
+    },  
+    {
+        clothingname: 'Floral Mustard Lined Reversible Pocket Square',
+        link:'https://www.artofthegent.com/products/floral-mustard-line-reversible-pocket-square',
+        image:'https://cdn.shopify.com/s/files/1/2471/9144/products/FloralMustardLineReversiblePocketSquare_300x.jpg?v=1652227926',
+        price:'18',
+        notes:''
+    },  
+    {
+        clothingname: 'Paisley & Gray Slim Fit Peak Lapel Dinner Jacket',
+        link:'https://www.menswearhouse.com/p/paisley-gray-slim-fit-peak-lapel-dinner-jacket-light-green-15MD15ME35',
+        image:'./images/MW40_15MD_35_PAISLEY_GRAY_LIGHT_GREEN_MAIN.png',
+        price:'79',
+        notes:'pants separate'
+    },  
+    {
+        clothingname: 'Egara Slim Fit Peak Lapel Dinner Jacket',
+        link:'https://www.menswearhouse.com/p/egara-slim-fit-peak-lapel-dinner-jacket-midnight-floral-jacquard-15NK15NL71',
+        image:'./images/MW40_15NK_71_EGARA_MIDNIGHT_SET.png',
+        price:'150',
+        notes:''
+    },  
+    {
+        clothingname: 'Dover Notch Jacket Slim Multi Stripe',
+        link:'https://www.paisleyandgray.com/products/dover-notch-jacket-slim-multi-stripe',
+        image:'./images/Paisleyandgray61e9828fa5277861e9828fa54bf.8025783961e9828fa54bf_1920x1024.jpeg',
+        price:'99',
+        notes:''
+    }, 
     {
         clothingname: '',
         link:'',
         image:'',
         price:'',
         notes:''
-    },  
+    },
     {
         clothingname: '',
         link:'',
         image:'',
         price:'',
         notes:''
-    },  
+    },
     {
         clothingname: '',
         link:'',
         image:'',
         price:'',
         notes:''
-    },  
-    {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
-        notes:''
-    },  
-    {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
-        notes:''
-    },  
-    {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
-        notes:''
-    },  
-    {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
-        notes:''
-    },  
-    {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
-        notes:''
-    },           
+    }                    
 ]
 
