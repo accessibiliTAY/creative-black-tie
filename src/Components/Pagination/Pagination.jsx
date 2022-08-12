@@ -64,6 +64,7 @@ const Pagination = ({
                                     className={classnames('mobilePaginationItem', {
                                     selected: pageNumber === currentPage
                                     })}
+                                    aria-current={pageNumber === currentPage ? 'page' : 'false'}
                                     >
                                         <button className="mobilePaginationButton" onClick={() => onPageChange(pageNumber)} aria-label={'page ' + pageNumber}>{pageNumber}</button>
                                 </li>
@@ -75,7 +76,7 @@ const Pagination = ({
                                 disabled: currentPage === lastPage
                                 })}
                                 onClick={onNext}>
-                                    <button aria-disabled={currentPage === lastPage ? 'true' : 'false'}className="mobilePaginationButton" onClick={onNext}><span className="mobilelabel">Next</span><i className="fi fi-rr-angle-right"></i></button>
+                                    <button aria-disabled={currentPage === lastPage ? 'true' : 'false'} className="mobilePaginationButton" onClick={onNext}><span className="mobilelabel">Next</span><i className="fi fi-rr-angle-right"></i></button>
                                 
                             </li>
                         </ul>
