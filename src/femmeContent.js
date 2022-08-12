@@ -107,84 +107,84 @@ export const femmeContent = [
     {
     clothingname: 'ALESSANDRA FLORAL SATIN SILK BACKLESS MAXI DRESS - GREEN',
     link:'https://www.wolfandbadger.com/us/alessandra-floral-satin-silk-backless-maxi-dress-green/',
-    img:'./images/alessandrafloral.png',
+    image:'./images/alessandrafloral.png',
     price:189,
     notes:''
     }, 
     {
     clothingname: 'Tasili Dress',
     link:'https://www.wolfandbadger.com/us/tasili-dress/',
-    img:'./images/tasili.png',
+    image:'./images/qycnul1sktivi9jf1vty.jpeg',
     price:149,
     notes:''
     },
     {
     clothingname: 'Georgette Floral Jacquard Gownk',
     link:'https://www.bloomingdales.com/shop/product/lauren-ralph-lauren-georgette-floral-jacquard-gown?ID=4342144',
-    img:'',
+    image:'./images/12299457_fpx.jpeg',
     price:290,
     notes:''
     },
     {
     clothingname: 'Annabella Column Gown',
     link:'https://kayunger.com/products/kay-unger-annabella-column-gown-in-dove-blue-cerise',
-    img:'',
+    image:'./images/5516142_5715_1_1800x1800.jpeg',
     price:154,
     notes:''
     },
     {
     clothingname: 'Gilda Wrap Gown',
     link:'https://kayunger.com/products/gilda-wrap-gown-in-sangria-multi',
-    img:'',
+    image:'./images/5516637_5936_1_1800x1800.jpeg',
     price:223,
     notes:''
     },
     {
     clothingname: 'Cutout Column Gown',
     link:'https://www.bloomingdales.com/shop/product/aidan-by-aidan-mattox-cutout-column-gown?ID=4341843',
-    img:'',
+    image:'./images/12123698_fpx.jpeg',
     price:158,
     notes:''
     },
     {
     clothingname: 'Sloane Tulle Dress',
     link:'https://shoprevelry.com/sloane-tulle-dress/',
-    img:'',
+    image:'./images/Revelry-ModernChateau-Product-featherandtwine-25_websize__73097.1639495769.jpeg',
     price:189,
     notes:''
     },
     {
     clothingname:'Maeve Tulle Dress',
     link:'https://shoprevelry.com/maeve-tulle-dress/',
-    Img:'',
+    image:'./images/MaeveTulle__98302.png',
     price:189,
     notes:'',
     },
     {
     clothingname:'Leo Satin Dress',
     link:'https://shoprevelry.com/leo-satin-dress/',
-    img:'',
+    image:'./images/Leosat__43378.png',
     price:189,
     Notes:'',
     },
     {
     clothingname:'Harley Chiffon Dress',
     link:'https://shoprevelry.com/harley-chiffon-dress/',
-    img:'',
+    image:'./images/HarleyCH__14581.png',
     price:189,
     notes:'',
     },
     {
     clothingname:'Women\'s Square Neck Floral Print Gown',
     link:'https://www.macys.com/shop/product/adrianna-papell-womens-square-neck-floral-print-gown?ID=13995360',
-    Img:'',
+    image:'./images/21641203_fpx.jpeg',
     price:229,
     notes:'',
     },
     {
     clothingname:'AW Mep Dress',
     link:'https://www.awbridal.com/aw-mepe-dress-awlf220u64cp.html',
-    Img:'',
+    image:'./images/aw-mepe-dress-awlf220u64cp-wlf220u64cp.190.jpeg',
     price:119,
     notes: '',
     }

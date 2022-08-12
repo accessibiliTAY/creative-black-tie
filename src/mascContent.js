@@ -124,20 +124,6 @@ export const mascContent = [
         image:'',
         price:'',
         notes:''
-    },
-    {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
-        notes:''
-    },
-    {
-        clothingname: '',
-        link:'',
-        image:'',
-        price:'',
-        notes:''
-    }                    
+    }                  
 ]
 

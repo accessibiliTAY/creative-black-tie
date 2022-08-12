@@ -3,7 +3,7 @@ import { useDeviceType} from "./useDeviceType";
 import { femmeContent } from "./femmeContent";
 import OutfitCard from "./Components/OutfitCard/OutfitCard";
 import Pagination from "./Components/Pagination/Pagination";
-import FilterButton from "./Components/Filter/FilterButton";
+// import FilterButton from "./Components/Filter/FilterButton";
 import './App.css';
 
 let PageSize = 10;
