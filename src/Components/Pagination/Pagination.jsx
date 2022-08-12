@@ -51,7 +51,7 @@ const Pagination = ({
                                 className={classnames('mobilePaginationItem', {
                                 disabled: currentPage === 1
                                 })}>
-                                    <button className="mobilePaginationButton" onClick={onPrevious}><span className="mobilelabel">Previous</span><i className="fi fi-rr-angle-left"></i></button>
+                                    <button aria-disabled={currentPage === 1 ? 'true' : 'false'} className="mobilePaginationButton" onClick={onPrevious}><span className="mobilelabel">Previous</span><i className="fi fi-rr-angle-left"></i></button>
                             </li>
                             {paginationRange.map(pageNumber => {    
                                 // If the pageItem is a DOT, render the DOTS unicode character
@@ -75,7 +75,7 @@ const Pagination = ({
                                 disabled: currentPage === lastPage
                                 })}
                                 onClick={onNext}>
-                                    <button className="mobilePaginationButton" onClick={onPrevious}><span className="mobilelabel">Next</span><i className="fi fi-rr-angle-right"></i></button>
+                                    <button aria-disabled={currentPage === lastPage ? 'true' : 'false'}className="mobilePaginationButton" onClick={onNext}><span className="mobilelabel">Next</span><i className="fi fi-rr-angle-right"></i></button>
                                 
                             </li>
                         </ul>
@@ -116,7 +116,7 @@ const Pagination = ({
                                 disabled: currentPage === lastPage
                                 })}
                                 onClick={onNext}>
-                                    <button className="paginationButton" onClick={onPrevious}>next<i className="fi fi-rr-angle-right"></i></button>
+                                    <button className="paginationButton" onClick={onNext}>next<i className="fi fi-rr-angle-right"></i></button>
                                 
                             </li>
                         </ul>
@@ -157,7 +157,7 @@ const Pagination = ({
                                 disabled: currentPage === lastPage
                                 })}
                                 onClick={onNext}>
-                                    <button className="paginationButton" onClick={onPrevious}>next<i className="fi fi-rr-angle-right"></i></button>
+                                    <button className="paginationButton" onClick={onNext}>next<i className="fi fi-rr-angle-right"></i></button>
                                 
                             </li>
                         </ul>
