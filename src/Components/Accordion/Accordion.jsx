@@ -23,7 +23,7 @@ const Accordion = ({topic, content, id}) => {
             ): null}
 
             {!isMobile && !isTablet ? (
-                <div className="accordion">
+                <section className="accordion">
                     <div className="accordionTopic">
                         <h2>
                             <button
@@ -34,13 +34,15 @@ const Accordion = ({topic, content, id}) => {
                                 aria-controls={id}
                             >
                                 <span className="accordionTitle">{topic}</span>
-                                <span className="openCloseButton"><i class="fi fi-rr-plus"></i></span>
+                                <span className="openCloseButton">
+                                    {isActive ? <i class="fi fi-rr-minus"></i> : <i class="fi fi-rr-plus"></i>}
+                                </span>
                             </button>
                         </h2>
                     </div>
                     <div 
-                    className='accordionContent'
-                    id={id}
+                        className='accordionContent'
+                        id={id}
                     >
                         <div 
                         className={isActive ? 'accordionContentContainer accordionContentContainerOpen' : 'accordionContentContainer accordionContentContainerClosed'}
@@ -48,7 +50,7 @@ const Accordion = ({topic, content, id}) => {
                             <p className='content'>{content}</p> 
                         </div>       
                     </div>
-                </div>  
+                </section>  
             ): null}                          
         </>
     );
