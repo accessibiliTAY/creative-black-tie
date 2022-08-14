@@ -18,9 +18,10 @@ const Mascs = () => {
       }, [currentPage]);
     return (
         <>
-        <h1>For the Mascs</h1>
+        
         {isMobile ? (
-            <div>
+            <div className="mainwell">
+                <h1>For the Mascs</h1>
                 <div className="mobileCardsList">
                     {currentMascContent.map(({clothingname, link, image, price, notes, index}) => (
                         <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
@@ -36,7 +37,8 @@ const Mascs = () => {
             ): null}
 
             {isTablet ? (
-                <div>
+                <div className="mainwell">
+                    <h1>For the Mascs</h1>
                     <div className="tabletCardsList">
                         {currentMascContent.map(({clothingname, link, image, price, notes, index}) => (
                             <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
@@ -52,7 +54,8 @@ const Mascs = () => {
             ): null}
 
             {!isMobile && !isTablet ? (
-                <div>
+                <div className="mainwell">
+                    <h1>For the Mascs</h1>
                     <div className="cardsList">
                         {currentMascContent.map(({clothingname, link, image, price, notes, index}) => (
                             <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}

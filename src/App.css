@@ -55,12 +55,12 @@ a {
   color: #274393;
 }
 #GOH{
-  font-size: xxx-large;
+  font-size: 48px;
   color: #274393;
   display: block;
 }
 #resourcehub {
-  font-size: xx-large;
+  font-size: 32px;
   padding-bottom: 10px;
   color: #F47185;
   font-family: 'Petit Formal Script', cursive;
@@ -83,11 +83,23 @@ a {
   color: #FFF;
 }
 .maincontainer {
-  margin: 0 100px;
+  margin: 0 40px;
+  display: grid;
+  grid-template-columns: 66% 34%;
+  column-gap: 20px;
+}
+.inlineLink {
+  display: inline;
+}
+.kateandtay {
+  width: 400px;
 }
 
 
 /* Mobile */
+.mobileMainContainer{
+  margin: 0;
+}
 .mobileCardsList {
   display: gird;
   grid-template-columns: 1fr;
@@ -147,6 +159,17 @@ a {
   height: 0;
   width: 0;
 }
+.mobileAccordion {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  min-width: 320px;
+  border-radius: 4px;
+  border: .1em solid #274393;  
+}
+.mobileMainwell {
+  margin: 15px;
+  text-align: left;
+}
 
 
 
@@ -174,6 +197,13 @@ a {
   padding: 30px;
   list-style-type: none;
   text-align: center;
+}
+.tabletAccordion {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  min-width: 320px;
+  border-radius: 4px;
+  border: .1em solid #274393;
 }
 
 /* Desktop */

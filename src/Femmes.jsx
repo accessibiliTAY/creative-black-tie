@@ -18,10 +18,9 @@ const Femmes = () => {
       }, [currentPage]);
     return (
         <>
-            <h1>For the Femmes</h1>
-
             {isMobile ? (
-                <div>
+                <div className="mainwell">
+                    <h1>For the Femmes</h1>
                     <div className="mobileCardsList">
                         {currentFemmeContent.map(({clothingname, link, image, price, notes, index}) => (
                             <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
@@ -37,7 +36,8 @@ const Femmes = () => {
             ): null}
 
             {isTablet ? (
-                <div>
+                <div className="mainwell">
+                    <h1>For the Femmes</h1>
                     <div className="tabletCardsList">
                         {currentFemmeContent.map(({clothingname, link, image, price, notes, index}) => (
                             <OutfitCard clothingname={clothingname} link={link} image={image} price={price} notes={notes} key={index} /> ))}
@@ -53,7 +53,8 @@ const Femmes = () => {
             ): null}
 
             {!isMobile && !isTablet ? (
-                <div>
+                <div className="mainwell">
+                    <h1>For the Femmes</h1>
                     {/* <div>
                     {currentFemmeContent.map(({price}) => (
                             <FilterButton price={price} /> ))}

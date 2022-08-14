@@ -11,15 +11,65 @@ const Accordion = ({topic, content, id}) => {
         <>
 
             {isMobile ? (
-                <div className="mobileAccordion">
-
-                </div>  
+                <section className="mobileAccordion">
+                    <div className="accordionTopic">
+                        <h2>
+                            <button
+                                type="button"
+                                onClick={() => setIsActive(!isActive)}
+                                className={isActive ? 'accordionHeader open' : 'accordionHeader closed'}
+                                aria-expanded={isActive ? 'true' : 'false'}
+                                aria-controls={id}
+                            >
+                                <span className="accordionTitle">{topic}</span>
+                                <span className="openCloseButton">
+                                    {isActive ? <i className="fi fi-rr-minus"></i> : <i className="fi fi-rr-plus"></i>}
+                                </span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div 
+                        className='accordionContent'
+                        id={id}
+                    >
+                        <div 
+                        className={isActive ? 'accordionContentContainer accordionContentContainerOpen' : 'accordionContentContainer accordionContentContainerClosed'}
+                        aria-hidden={isActive ? 'false' : 'true'}>
+                            <p className='content'>{content}</p> 
+                        </div>       
+                    </div>
+                </section>  
             ): null}
 
             {isTablet ? (
-                <div className="tabletAccordion">
-
-                </div>  
+                <section className="tabletAccordion">
+                    <div className="accordionTopic">
+                        <h2>
+                            <button
+                                type="button"
+                                onClick={() => setIsActive(!isActive)}
+                                className={isActive ? 'accordionHeader open' : 'accordionHeader closed'}
+                                aria-expanded={isActive ? 'true' : 'false'}
+                                aria-controls={id}
+                            >
+                                <span className="accordionTitle">{topic}</span>
+                                <span className="openCloseButton">
+                                    {isActive ? <i className="fi fi-rr-minus"></i> : <i className="fi fi-rr-plus"></i>}
+                                </span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div 
+                        className='accordionContent'
+                        id={id}
+                    >
+                        <div 
+                        className={isActive ? 'accordionContentContainer accordionContentContainerOpen' : 'accordionContentContainer accordionContentContainerClosed'}
+                        aria-hidden={isActive ? 'false' : 'true'}>
+                            <p className='content'>{content}</p> 
+                        </div>       
+                    </div>
+                </section>   
             ): null}
 
             {!isMobile && !isTablet ? (
@@ -35,7 +85,7 @@ const Accordion = ({topic, content, id}) => {
                             >
                                 <span className="accordionTitle">{topic}</span>
                                 <span className="openCloseButton">
-                                    {isActive ? <i class="fi fi-rr-minus"></i> : <i class="fi fi-rr-plus"></i>}
+                                    {isActive ? <i className="fi fi-rr-minus"></i> : <i className="fi fi-rr-plus"></i>}
                                 </span>
                             </button>
                         </h2>
