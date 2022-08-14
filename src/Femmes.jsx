@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { useDeviceType} from "./useDeviceType";
-import { femmeContent } from "./femmeContent";
+import { femmeContent } from "./Components/Data/femmeContent";
 import OutfitCard from "./Components/OutfitCard/OutfitCard";
 import Pagination from "./Components/Pagination/Pagination";
 // import FilterButton from "./Components/Filter/FilterButton";
