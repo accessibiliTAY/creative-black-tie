@@ -187,7 +187,62 @@ export const femmeContent = [
     image:'./images/aw-mepe-dress-awlf220u64cp-wlf220u64cp.190.jpeg',
     price:119,
     notes: '',
-    }
-                                     
+    },
+    {
+    clothingname:'Plunging Neckline Maxi',
+    link:'https://dessy.com/dresses/bridesmaid/thread-bridesmaid-th072/#.Yx89pnbMKUk',
+    image:'./images/',
+    price:116,
+    notes: '',
+    },
+    {
+    clothingname:'',
+    link:'',
+    image:'./images/',
+    price:,
+    notes: '',
+    },
+    {
+    clothingname:'',
+    link:'',
+    image:'./images/',
+    price:,
+    notes: '',
+    },
+    {
+    clothingname:'',
+    link:'',
+    image:'./images/',
+    price:,
+    notes: '',
+    },
+    {
+    clothingname:'',
+    link:'',
+    image:'./images/',
+    price:,
+    notes: '',
+    },
+    {
+    clothingname:'',
+    link:'',
+    image:'./images/',
+    price:,
+    notes: '',
+    },
+    {
+    clothingname:'',
+    link:'',
+    image:'./images/',
+    price:,
+    notes: '',
+    },
+    {
+    clothingname:'',
+    link:'',
+    image:'./images/',
+    price:,
+    notes: '',
+    }                                 
 ]
 
