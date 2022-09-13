@@ -226,14 +226,14 @@ export const femmeContent = [
     {
     clothingname:'One-Shoulder Ruched Satin Gown',
     link:'https://www.nordstrom.com/s/one-shoulder-ruched-satin-gown/7108719',
-    image:'./images/',
+    image:'./images/Screenshot 2022-09-13 094158.png',
     price:69,
     notes: '',
     },
     {
     clothingname:'Leona Bow Sleeveless Gown',
     link:'https://www.nordstrom.com/s/js-collections-leona-bow-sleeveless-gown/6581153?origin=keywordsearch-personalizedsort&breadcrumb=Home%2FAll%20Results&color=476',
-    image:'./images/',
+    image:'./images/Screenshot 2022-09-13 094038.png',
     price:99,
     notes: '',
     },
