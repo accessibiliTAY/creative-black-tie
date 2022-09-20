@@ -238,11 +238,32 @@ export const femmeContent = [
     notes: '',
     },
     {
+    clothingname:'Jemma Embroidered Cold Shoulder Column Gown',
+    link:'https://www.nordstrom.com/s/jemma-embroidered-cold-shoulder-column-gown/7041793?color=AMETHYST%2F+CHARTREUSE&utm_content=132419457023&utm_term=pla-1828356084712&utm_channel=low_nd_shopping_smart&utm_source=google&utm_campaign=16369080694&adpos=&creative=583793410252&device=c&matchtype=&network=u&acctid=21700000001689570&dskeywordid=92700069636453606&lid=92700069636453606&ds_s_kwgid=58700007687306318&ds_s_inventory_feed_id=97700000007631122&dsproductgroupid=1828356084712&product_id=4366731&merchid=1243147&prodctry=US&prodlang=en&channel=online&storeid=&locationid=9019660&targetid=pla-1828356084712&campaignid=16369080694&adgroupid=132419457023&gclid=EAIaIQobChMIiILOgIqk-gIVezizAB2JtAl1EAQYASABEgL_gPD_BwE&gclsrc=aw.ds',
+    image:'./images/jemma.png',
+    price:258,
+    notes: '',
+    }, 
+    {
+    clothingname:'Nicole Gown',
+    link:'https://www.jennyyoo.com/products/bridesmaids-dress/nicole?color=KYG&_nr=1&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=EAIaIQobChMI476c2Iqk-gIVkzizAB3tzAfqEAQYASABEgJimPD_BwE&type=mto',
+    image:'./images/Screenshot 2022-09-20 141816.png',
+    price:295,
+    notes: 'Wild rose, fuchia, canyon sunset, marigold, kelly green, evening blue, french blue, black',
+    },        
+    {
+    clothingname:'Rebellious Boss Suit',
+    link:'https://www.wolfandbadger.com/us/a-rebellious-boss-suit-sage-green/',
+    image:'./images/suit.png',
+    price:325,
+    notes: '',
+    },        
+    {
     clothingname:'',
     link:'',
     image:'./images/',
     price:,
     notes: '',
-    }                                 
+    },        
 ]
 
