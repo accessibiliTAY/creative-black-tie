@@ -233,7 +233,7 @@ export const femmeContent = [
     {
     clothingname:'Leona Bow Sleeveless Gown',
     link:'https://www.nordstrom.com/s/js-collections-leona-bow-sleeveless-gown/6581153?origin=keywordsearch-personalizedsort&breadcrumb=Home%2FAll%20Results&color=476',
-    image:'./images/Screenshot 2022-09-13 094038.png',
+    image:'./images/Screenshot2022-09-13094038.png',
     price:99,
     notes: '',
     },
@@ -247,7 +247,7 @@ export const femmeContent = [
     {
     clothingname:'Nicole Gown',
     link:'https://www.jennyyoo.com/products/bridesmaids-dress/nicole?color=KYG&_nr=1&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=EAIaIQobChMI476c2Iqk-gIVkzizAB3tzAfqEAQYASABEgJimPD_BwE&type=mto',
-    image:'./images/Screenshot 2022-09-20 141816.png',
+    image:'./images/Screenshot2022-09-20141816.png',
     price:295,
     notes: 'Wild rose, fuchia, canyon sunset, marigold, kelly green, evening blue, french blue, black',
     },        
@@ -262,8 +262,8 @@ export const femmeContent = [
     clothingname:'',
     link:'',
     image:'./images/',
-    price:,
+    price:'',
     notes: '',
-    },        
+    }        
 ]
 
